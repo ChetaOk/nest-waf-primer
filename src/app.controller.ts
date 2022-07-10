@@ -12,8 +12,8 @@ export class AppController {
 
   @Get('hello2')
   @Render('index.html')
-  getHello2(): {}{
-    return this.appService.getHello2();
+  getHello2(): {} {
+      return this.appService.getHello2();
   }
 
   @Get()
